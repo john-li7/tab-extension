@@ -4,6 +4,12 @@
   "version": "1.0",
   "description": "Chrome tab organizer",
   "permissions": [
+    "<all_urls>",
     "tabs"
-  ]
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "index.html",
+    "default_icon": "hi.png"
+  }
 }
